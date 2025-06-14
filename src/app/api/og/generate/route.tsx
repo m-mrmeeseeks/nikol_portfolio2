@@ -1,17 +1,17 @@
 import { ImageResponse } from "next/og";
-import { baseURL, person } from "@/resources";
+// import { baseURL, person } from "@/resources"; // Temporarily comment this out
 
 export const runtime = "edge";
 
 export async function GET(request: Request) {
   let url = new URL(request.url);
   let title = url.searchParams.get("title") || "Portfolio";
-  /*
-  const font = fetch(new URL("../../../public/fonts/Inter.ttf", import.meta.url)).then((res) =>
-    res.arrayBuffer(),
-  );
-  const fontData = await font;
-  */
+
+  // Replace these with your actual static values for testing
+  const STATIC_BASE_URL = "https://yourdomain.com"; // Your actual base URL
+  const STATIC_PERSON_AVATAR = "/your-avatar.jpg"; // Path to your avatar relative to base URL
+  const STATIC_PERSON_NAME = "Your Name"; // Your name
+  const STATIC_PERSON_ROLE = "Your Role"; // Your role
 
   return new ImageResponse(
     <div
@@ -52,7 +52,7 @@ export async function GET(request: Request) {
           }}
         >
           <img
-            src={baseURL + person.avatar}
+            src={STATIC_BASE_URL + STATIC_PERSON_AVATAR} // Using static values
             style={{
               width: "12rem",
               height: "12rem",
@@ -75,7 +75,7 @@ export async function GET(request: Request) {
                 textWrap: "balance",
               }}
             >
-              {person.name}
+              {STATIC_PERSON_NAME}
             </span>
             <span
               style={{
@@ -86,7 +86,7 @@ export async function GET(request: Request) {
                 opacity: "0.6",
               }}
             >
-              {person.role}
+              {STATIC_PERSON_ROLE}
             </span>
           </div>
         </div>
