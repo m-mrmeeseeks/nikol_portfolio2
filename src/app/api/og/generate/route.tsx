@@ -96,14 +96,8 @@ export async function GET(request: Request) {
       width: 1280,
       height: 720,
       /*
-      fonts: [
-        {
-          name: "Inter",
-          data: fontData,
-          style: "normal",
-        },
-      ],
-      */
+      fonts: []
+        */
     },
   );
 }
