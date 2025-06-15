@@ -220,8 +220,8 @@ const about = {
           {
             src: "/images/projects/project-01/Elective-03.jpeg",
             alt: "Project image",
-            width: 23,
-            height: 29,
+            width: 12.54,
+            height: 16,
           },
         ],
       },
