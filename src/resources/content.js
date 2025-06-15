@@ -125,7 +125,7 @@ const about = {
           },
         ],
       },
-      {
+      /*{
         company: "Creativ3",
         timeframe: "2018 - 2022",
         role: "Lead Designer",
@@ -142,7 +142,7 @@ const about = {
         images: [],
       },
     ],
-  },
+  },*/
   studies: {
     display: true, // set to false to hide this section
     title: "Studies",
@@ -165,7 +165,7 @@ const about = {
     display: true, // set to false to hide this section
     title: "Elective trainings",
     skills: [
-      {
+      /*{
         title: "Figma",
         description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
         // optional: leave the array empty if you don't want to display images
@@ -183,7 +183,7 @@ const about = {
             height: 9,
           },
         ],
-      },
+      },*/
       {
         title: "Kapilvastu Hospital",
         role: "Senior Clerk",
