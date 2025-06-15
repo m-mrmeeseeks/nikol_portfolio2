@@ -21,10 +21,13 @@ export const ThemeToggle: React.FC = () => {
   const nextTheme = currentTheme === 'light' ? 'dark' : 'light';
 
   return (
-    <ToggleButton
-      prefixIcon={icon}
-      onClick={() => setTheme(nextTheme)}
-      aria-label={`Switch to ${nextTheme} mode`}
-    />
+    <>
+      <ToggleButton
+        prefixIcon={theme === 'dark' ? 'sun' : 'moon'}
+        onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
+        selected={false}
+        aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}
+      />
+    </>
   );
 };
