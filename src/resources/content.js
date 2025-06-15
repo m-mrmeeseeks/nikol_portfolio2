@@ -94,7 +94,6 @@ const about = {
         He is actively involved in trainings, conferences and seminars; increasing the synapses between his neurons everyday. 
         Research is one of the pillars of his career: reviewing literatures, sharing uncommon findings, testing hypotheses, performing Clinical audits and Quality improvement strategies. 
       </>
-      </>
     ),
   },
   work: {
