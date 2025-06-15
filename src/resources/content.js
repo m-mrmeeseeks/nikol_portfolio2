@@ -1,16 +1,16 @@
 import { Logo } from "@once-ui-system/core";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Nikol",
+  lastName: "Guragain",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Intern Doctor and Researcher",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "guragainnikol@gmail.com",
+  location: "Asia/Kathmandu", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Nepali", "Hindi"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -18,8 +18,7 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+     Every so often, I write about the things that inspire me—heartfelt encounters in medicine, curious questions from research, and little productivity lessons along the way. I'd love to share them with you.
     </>
   ),
 };
@@ -27,21 +26,21 @@ const newsletter = {
 const social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
-  {
+  /*{
     name: "GitHub",
     icon: "github",
     link: "https://github.com/once-ui-system/nextjs-starter",
-  },
+  },*/
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/nikolguragain/",
   },
-  {
+  /*{ //Here you can keep Researchgate ID
     name: "Threads",
     icon: "threads",
     link: "https://www.threads.com/@once_ui",
-  },
+  },*/
   {
     name: "Email",
     icon: "email",
@@ -55,16 +54,16 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Beyond the White Coat</>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
-    href: "/work/building-once-ui-a-customizable-design-system",
+    title: <>Recent project: <strong className="ml-4">My portfolio</strong></>,
+    href: "https://www.nikolguragain.com.np",
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm {person.firstName}, an Intern Doctor at <a href="https://web.pahs.edu.np/">Patan Academy of Health Sciences</a>, where I am learning from patients every day and growing into the physician I hope to become.
+      Beyond the hospital, I find joy in adventure, travel, music, and all things that fuel productivity.
     </>
   ),
 };
@@ -83,16 +82,18 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://cal.com", //here can add my calender
   },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Nikol is a Nepal-based Doctor with a passion for transforming complex challenges into simple and elegant solutions. 
+        His work spans clinical assesment, performing minor procedures, proper documentation/charting and healing the patients. 
+        He is actively involved in trainings, conferences and seminars; increasing the synapses between his neurons everyday. 
+        Research is one of the pillars of his career: reviewing literatures, sharing uncommon findings, testing hypotheses, performing Clinical audits and Quality improvement strategies. 
+      </>
       </>
     ),
   },
@@ -101,18 +102,19 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Journal of Nepal Medical Association",
+        timeframe: "2023 - Present",
+        role: "Section Editor",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Started the journey as a <b>Copy-Editor</b> by reviewing submissions, filtering them and following them up throughout the process.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Promoted to the <b>Guest Editor</b> and involved in publication process of the journal and programs conducted by Nepal Medical Association.
           </>,
+          <>
+          Promoted and currently working as the <b>Section Editor</b> and involved in publication process of the journal and programs conducted by Nepal Medical Association.
+        </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
