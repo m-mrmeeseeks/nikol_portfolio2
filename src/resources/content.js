@@ -140,9 +140,9 @@ const about = {
           </>,
         ],
         images: [],
-      },
+      },*/
     ],
-  },*/
+  },
   studies: {
     display: true, // set to false to hide this section
     title: "Studies",
