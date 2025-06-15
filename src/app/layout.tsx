@@ -8,6 +8,8 @@ import { Background, Column, Flex, Meta, opacity, SpacingToken } from "@once-ui-
 import { Footer, Header, RouteGuard, Providers } from '@/components';
 import { baseURL, effects, fonts, style, dataStyle, home } from '@/resources';
 
+import { Analytics } from '@vercel/analytics/next';
+
 export async function generateMetadata() {
   return Meta.generate({
     title: home.title,
@@ -34,6 +36,7 @@ export default async function RootLayout({
         fonts.body.variable,
         fonts.label.variable,
         fonts.code.variable,
+        <Analytics mode="production" />
       )}
     >
       <head>
