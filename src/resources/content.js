@@ -125,6 +125,31 @@ const about = {
           },
         ],
       },
+      {
+        company: "Patan Hospital",
+        timeframe: "2024 - Present",
+        role: "Medical Intern",
+        achievements: [
+          <>
+            Started the journey as a <b>Medical Intern</b> by participating in daily rounds, patient assessments, and treatment planning.
+          </>,
+          <>
+            Gained hands-on experience in various medical procedures and patient care techniques.
+          </>,
+          <>
+            Engaged in continuous learning through mentorship and collaboration with experienced healthcare professionals.
+          </>,
+        ],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          {
+            src: "/images/projects/project-01/pahs.jpeg",
+            alt: "Once UI Project",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
       /*{
         company: "Creativ3",
         timeframe: "2018 - 2022",
