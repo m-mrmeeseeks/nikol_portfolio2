@@ -18,7 +18,7 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-     Every so often, I write about the things that inspire me—heartfelt encounters in medicine, curious questions from research, and little productivity lessons along the way. I'd love to share them with you.
+     Every so often, I write about the things that inspire me — heartfelt encounters in medicine, curious questions from research, and little productivity lessons along the way. I'd love to share them with you.
     </>
   ),
 };
@@ -118,7 +118,7 @@ const about = {
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
+            src: "/images/projects/project-01/jnma-cover.jpg",
             alt: "Once UI Project",
             width: 16,
             height: 9,
@@ -148,18 +148,22 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Patan Academy of Health Sciences",
+        description: <>Undergraduate studies in Medicine.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "S.O.S. Hermann Gmeiner Higher Secondary School",
+        description: <>Higher Secondary with Biology, Physics, Chemistry and Mathematics as Major.</>,
+      },
+      {
+        name: "St. Xavier's Godavari School",
+        description: <>Primary and Lower Secondary with Science, Mathematics and Computer as Major.</>,
       },
     ],
   },
   technical: {
     display: true, // set to false to hide this section
-    title: "Technical skills",
+    title: "Elective trainings",
     skills: [
       {
         title: "Figma",
@@ -181,15 +185,37 @@ const about = {
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "Kapilvastu Hospital",
+        role: "Senior Clerk",
+        description: <>For 17 weeks, I got chance to involve in direct patient care, daily medical rounds, clinical discussions, diagnosis and treatment.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
+            src: "/images/projects/project-01/Elective-03.jpeg",
+            alt: "Project image",
+            width: 23,
+            height: 29,
+          },
+        ],
+      },
+      {
+        title: "Ayurveda and Alternative medicine Hospital, Lalitpur",
+        description: <>A 2-week-long elective in Alternative Medicine (Ayurveda), involving in its treatment
+        methods, its beliefs and direct patient interaction throughout the procedures and
+        feedback sessions.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/Elective-01.jpeg",
             alt: "Project image",
             width: 16,
-            height: 9,
+            height: 16,
+          },
+          {
+            src: "/images/projects/project-01/Elective-02.jpeg",
+            alt: "Project image",
+            width: 16,
+            height: 16,
           },
         ],
       },
