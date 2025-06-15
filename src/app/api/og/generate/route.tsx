@@ -9,7 +9,7 @@ export async function GET(request: Request) {
 
   // Replace these with your actual static values for testing
   const STATIC_BASE_URL = "https://yourdomain.com"; // Your actual base URL
-  const STATIC_PERSON_AVATAR = "/your-avatar.jpg"; // Path to your avatar relative to base URL
+  const STATIC_PERSON_AVATAR = "/your-avatar.jpeg"; // Path to your avatar relative to base URL
   const STATIC_PERSON_NAME = "Your Name"; // Your name
   const STATIC_PERSON_ROLE = "Your Role"; // Your role
 
